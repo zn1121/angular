@@ -1,0 +1,116 @@
+page-login {
+    ion-content{
+        background: url(../assets/imgs/loginbg.png);
+        background-size: cover;
+        .title1{
+            text-align: center;
+            .ta{
+                float:center;
+                font-size: 40px;
+                color: white;
+                margin-top: 70px;
+                font-family: "幼圆";
+            }
+            .tb{
+                font-size: 10px;
+                color: white;
+                float:center;
+                margin-top: -40px;
+                font-weight: 100;
+            }
+
+        }
+        .login1{
+            text-align: center;
+            float: center;
+            margin-top: 20%;
+            ion-item{
+                background: transparent;
+                float: left;
+                margin-left: 10%;
+                width: 80%;
+                border: 0.6px solid #878c8e;
+                ion-icon{
+                    color:#878c8e;
+                }
+                input::-webkit-input-placeholder {
+                    color: #878c8e;
+                    font-size: 14px;
+                    opacity: 0.7;
+                }
+            }
+            .login2{
+                height: 60px;
+                width: 100%;
+            }
+        }
+        .login3{
+            position: relative;
+            width: 80%;
+            background-color: #ffdb2c;
+            height: 50px;
+            text-align: center;
+            line-height: 350%;
+            margin-top: 30%;
+            margin-left: 10%;
+            p{
+                color: white;
+                font-size: 16px;
+            }
+        }
+        .login4{
+            width: 100%;
+            text-align: center;
+            p{
+                color: #8d9192;
+                opacity: 0.7;
+                margin-top: 13%;
+            }
+        }
+        .login5{
+            float: left;
+            width: 100%;
+            li{
+                position: relative;
+                width: 16%;
+                float: left;
+                img{
+                    width: 90%;
+                    opacity:0.5;
+                }
+            }
+            .login5-1{
+                float: left;
+                margin-left: 1%;
+            }
+            .login5-2{
+                margin-left: 20%;
+            }
+            .login5-3{
+                margin-left: 20%;
+            }
+        }
+        .login6{
+            margin-top: 35%;
+            .login6-1{
+                float: left;
+                margin-left: 10%;
+                font-size: 60%;
+                margin-top: -3%;
+                p{
+                    color: #878c8e;
+                    text-decoration: none;
+                }
+            }
+            .login6-2{
+                float: right;
+                font-size: 60%;
+                margin-right: 10%;
+                a{
+                    color: #878c8e;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
