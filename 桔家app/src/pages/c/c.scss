@@ -1,0 +1,28 @@
+page-c {
+    ion-content{
+        background-color: yellow!important;
+        .jiahao{
+            width: 25%;
+            float: left;
+            margin: 60px 40px 0 40px;
+            h2{
+                font-size: 20px;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+        }
+        .jiahao1{
+            height: 50px;
+        }
+    }
+    ion-footer{
+        .xx{
+            font-size: 300%;
+            color:white;
+        }
+    }
+    
+
+}

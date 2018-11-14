@@ -1,0 +1,112 @@
+<!-- <ion-header text-center no-border>
+  <ion-navbar color="yel">
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      桔家
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  
+  <ul class="navList">
+    <li>推荐</li>
+    <li class="first">家居</li>
+    <li>餐厨</li>
+    <li>床上用品</li>
+  </ul>
+  
+  <ion-slides pager="true" autoplay="1000" loop="true" class="sli">
+    <ion-slide>
+      <img src="assets/imgs/slide2-1.png" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/imgs/slide2-1.png" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/imgs/slide2-1.png" alt="">
+    </ion-slide>
+  </ion-slides>
+  <ul class="show">
+    <li>
+      <img src="assets/imgs/img2-1.png" alt="客厅">
+      <p>客厅</p>
+    </li>
+    <li>
+        <img src="assets/imgs/img2-2.png" alt="书房">
+        <p>书房</p>
+    </li>
+    <li>
+        <img src="assets/imgs/img2-3.png" alt="门厅">
+        <p>门厅</p>
+    </li>
+  </ul>
+  <div class="subtitle">
+      <h3 text-center>橘|子|家|居</h3>
+      <p text-center>ORANGE HOUSEHOLD</p>
+  </div>
+  <ul class="goods">
+      <li>
+        <img src="assets/imgs/img2-4.png" alt="">
+        <p>—欧式全实木花几— &nbsp; RMB 600</p>
+        <span><ion-icon name="md-star-half"></ion-icon></span>
+      </li>
+      <li>
+        <img src="assets/imgs/img2-5.png" alt="">
+        <p>—现代简约早餐桌— &nbsp; RMB 450</p>
+        <span><ion-icon name="md-star-half"></ion-icon></span>
+      </li>
+      <li>
+        <img src="assets/imgs/img2-5.png" alt="">
+        <p>—现代简约早餐桌— &nbsp; RMB 450</p>
+        <span><ion-icon name="md-star-half"></ion-icon></span>
+      </li>
+      <li>
+        <img src="assets/imgs/img2-4.png" alt="">
+        <p>—欧式全实木花几— &nbsp; RMB 600</p>
+        <span><ion-icon name="md-star-half"></ion-icon></span>
+      </li>
+  </ul>
+</ion-content> -->
+
+<ion-header>
+  <ion-toolbar>
+    <ion-searchbar (ionInput)="getItems($event)" placeholder="双十二特惠好物超低价" autocomplete="on"
+    mode='ios' color='orange' showCancelButton='true' CancelButtonText='取消' (click)="goabout()">
+    </ion-searchbar>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content>
+  <img src="assets/imgs/shopbanner1.png" alt="">
+  <ul class="nav1">
+    <li class="nav1-1">客厅</li>
+    <li>卧室</li>
+    <li>餐厅</li>
+    <li>书房</li>
+    <li>门厅</li>
+  </ul>
+  <div class="sofa">------------沙发------------</div>
+  <ul class="sofa1">
+    <li><img src="assets/imgs/shop.png" alt=""></li>
+    <li><img src="assets/imgs/shop1.png" alt=""></li>
+    <li>
+      <img src="assets/imgs/shop2.png" alt="">
+      <div class="shopyy">
+        <p>罗得蒙简约植绒布艺沙发</p>
+        <h2>RMB 6500</h2>
+      </div>
+    </li>
+    <li><img src="assets/imgs/shop3.png" alt=""></li>
+  </ul>
+  <p>查看全部商品>></p>
+  <div class="sofa">------------电视柜------------</div>
+</ion-content>

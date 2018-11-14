@@ -1,0 +1,53 @@
+page-contact {
+    .linggan{
+        .lingganyy{
+                float: left;
+                width: 60%;
+                height: 120px;
+                text-align: center;
+                background-color: #000;
+                background: rgba(0,0,0,0.5);
+                opacity: 0.5;
+                margin: -170px 0 0 80px;
+                
+                
+            }
+    }
+    
+    .lingganzi{
+        position: relative;
+        float: left;
+        margin:-180px 0 0 90px ;
+        text-align: center;
+        h1{
+            opacity: 1;
+            color: white;
+            font-size: 18px;
+            padding-bottom: -35px;
+            padding-top: -35px;
+        }
+        h4{
+            font-size: 14px;
+            color: white;
+            opacity: 0.5;
+        }
+    }
+    .lingganzi1{
+        position: relative;
+        float: left;
+        margin:-180px 0 0 130px ;
+        text-align: center;
+        h1{
+            opacity: 1;
+            color: white;
+            font-size: 18px;
+            padding-bottom: -35px;
+            padding-top: -35px;
+        }
+        h4{
+            font-size: 14px;
+            color: white;
+            opacity: 0.5;
+        }
+    }
+}
